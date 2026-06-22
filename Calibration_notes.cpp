@@ -15,17 +15,43 @@ Maximum position: 630
 */
 
 /* BOTTOM RIGHT LEG:
+8/ Hip servo: 
+Minimum position: 150
+Maximum position: 655
 
+9/ Femur servo: 
+Minumum position: 150  
+Maximum position: 650
 
-
+10/ Tibia servo: 
+Minumum position: 120
+Maximum position: 650
 */
 
 /* TOP LEFT LEG: 
-5/ Linkage servo: 
+4/ Hip servo: 
+Minimum position: 145
+Maximum position: 670
+
+5/ Femur servo: 
 Minumum position: 120
 Maximum position: 620
 
-6/ Hip servo:
-Minumum position: 150
+6/ Tibia servo:
+Minumum position: 120
+Maximum position: 650
+*/
+
+/* TOP RIGHT LEG
+0/ Hip servo: 
+Minimum position: 135
+Maximum position: 650
+
+1/ Femur servo: 
+Minimum position: 150
+Maximum position: 650
+
+2/ Tibia servo:
+Minimum position: 150
 Maximum position: 650
 */

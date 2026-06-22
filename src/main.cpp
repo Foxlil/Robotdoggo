@@ -13,10 +13,8 @@ void setup() {
 }
 
 void loop() {
-    servo.setPWM(5, 0, 120);
-    servo.setPWM(6, 0, servoMIN);
-    delay(1000);
-    servo.setPWM(5, 0, 620);
-    servo.setPWM(6, 0, servoMAX);
-    delay(2000);
+  servo.setPWM(0, 0, 135);
+  delay(1000);
+  servo.setPWM(0, 0, servoMAX);
+  delay(2000);
 }
