@@ -48,10 +48,10 @@ Minimum position: 135
 Maximum position: 650
 
 1/ Femur servo: 
-Minimum position: 150
-Maximum position: 650
+Minimum position: 110
+Maximum position: 605
 
 2/ Tibia servo:
-Minimum position: 150
+Minimum position: 110
 Maximum position: 650
 */
