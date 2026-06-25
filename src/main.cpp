@@ -34,10 +34,10 @@ void loop() {
   servo.setPWM(6, 0, 650);
   delay(2000);
 
-  servo.setPWM(1, 0, 110);
-  servo.setPWM(2, 0, 110);
-  delay(2000);
   servo.setPWM(1, 0, 605);
   servo.setPWM(2, 0, 650);
+  delay(2000);
+  servo.setPWM(1, 0, 110);
+  servo.setPWM(2, 0, 110);
   delay(2000);
 }

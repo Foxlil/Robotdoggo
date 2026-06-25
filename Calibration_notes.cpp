@@ -1,15 +1,15 @@
 /* Notes for servo calibration */
 
 /* BOTTOM LEFT LEG: 
-12/ Shoulder servo: 
+12/ Hip servo: 
 Minimum position: 130 
 Maximum position: 630 
 
-13/ Linkage servo: 
+13/ Tibia servo: 
 Minimum position: 110 
 Maximum position: 600 
 
-14/ Hip servo: 
+14/ Femur servo: 
 Minimum position: 130
 Maximum position: 630
 */
@@ -19,11 +19,11 @@ Maximum position: 630
 Minimum position: 150
 Maximum position: 655
 
-9/ Femur servo: 
+9/ Tibia servo: 
 Minumum position: 150  
 Maximum position: 650
 
-10/ Tibia servo: 
+10/ Femur servo: 
 Minumum position: 120
 Maximum position: 650
 */
@@ -33,11 +33,11 @@ Maximum position: 650
 Minimum position: 145
 Maximum position: 670
 
-5/ Femur servo: 
+5/ Tibia servo: 
 Minumum position: 120
 Maximum position: 620
 
-6/ Tibia servo:
+6/ Femur servo:
 Minumum position: 120
 Maximum position: 650
 */
@@ -47,11 +47,11 @@ Maximum position: 650
 Minimum position: 135
 Maximum position: 650
 
-1/ Femur servo: 
+1/ Tibia servo: 
 Minimum position: 110
 Maximum position: 605
 
-2/ Tibia servo:
+2/ Femur servo:
 Minimum position: 110
 Maximum position: 650
 */
