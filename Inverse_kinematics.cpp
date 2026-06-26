@@ -9,6 +9,32 @@ float angle_offset = 2.0; /* REMEMBER TO CHECK VALUE!!!! */
 
 /* DEPENDS ON WHICH LEG...FIX!!! */
 
+
+
+float map() {
+
+};
+
+/*
+Top right: 1
+Top left: 2
+Bottom right: 3
+Bottom left:4
+*/
+
+
+int which_foot = 1;
+
+int possible_hip_minimum[4] = {};
+int possible_hip_maximum[4] = {};
+
+int possible_tibia_minimum[4] = {};
+int possible_tibia_maximum[4] = {};
+
+int possible_femur_minimum[4] = {};
+int possible_tibia_maximum[4] = {};
+
+
 float angles(float x, float y, float z) {
     /*hip*/
     float c = sqrt((z*z)+(y*y));
@@ -27,4 +53,8 @@ float angles(float x, float y, float z) {
     float elbow_angle = acos(((l1*l1 + l2*l2) - (h*h))/(2*l1*l2))*(180/M_PI);
     float initial_tibia_angle = 180 - elbow_angle;
     float tibia_angle = femur_angle + (initial_tibia_angle - angle_offset);
+
+    if (which_foot = 1) {
+
+    };
 };
